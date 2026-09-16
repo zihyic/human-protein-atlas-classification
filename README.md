@@ -39,6 +39,13 @@ end-to-end pipeline.
 
 ## What's here
 
+- **`notebooks/ResNet_bce_with_logits.ipynb`** — baseline training: ImageNet-
+  pretrained ResNet18/ResNet34 fine-tuned with `BCEWithLogitsLoss` (AdamW,
+  30 epochs, batch 64, 90/10 split), dataloader with augmentation, macro-F1
+  evaluation. Originally run on Colab.
+- **`notebooks/Transformer.ipynb`** — transformer-backbone experiments (Swin /
+  ViT via `timm`) with 4-channel input adaptation, building on the ResNet
+  training setup. Originally run on Colab.
 - **`notebooks/Submission.ipynb`** — inference pipeline: loads the trained
   ResNet18 weights, runs the 4-channel test images through preprocessing
   (resize 512×512, tensor), and writes the Kaggle submission CSV. Originally
