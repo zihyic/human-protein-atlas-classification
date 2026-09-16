@@ -64,3 +64,9 @@ Images: [Human Protein Atlas Image Classification](https://www.kaggle.com/c/huma
 Two-person team: I authored the project report and collaborated on experiment
 design (backbone comparison, loss-function selection); my teammate led code
 implementation.
+
+## Visualizations
+![Macro F1: validation vs Kaggle public/private](visuals/hpa_f1_comparison.png)
+![Four-channel fluorescence input schematic](visuals/hpa_four_channel.png)
+![Experiment setup at a glance](visuals/hpa_setup_infographic.png)
+![ResNet18 vs ResNet34 validation macro F1](visuals/hpa_backbone_delta.png)
